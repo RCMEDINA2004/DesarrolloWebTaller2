@@ -4,59 +4,135 @@
 <head>
     <meta charset="UTF-8">
     <title>Historia de la tecnologia</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #dbeafe, #f0f9ff);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+        }
+
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            border: 10px solid #002b5c;
+        }
+
+        .publicidad {
+            width: 15%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .contenido {
+            width: 70%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h3 {
+            color: #002b5c;
+            letter-spacing: 1px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #0077cc;
+            padding: 7px 12px;
+            margin: 4px;
+            display: inline-block;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #004c99;
+            transform: scale(1.05);
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 8px;
+        }
+
+        .banner {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .footer {
+            background-color: #002b5c;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
 
-    <!-- Table principal -->
-    <table border="1" width="100%" align="center">
-        <tr align="center">
+    <div class="contenedor">
 
-            <!-- Publicidad izquierda -->
-            <td width="15%">
-                <img src="img/ad1.jpg" alt="ad" width="150">
-            </td>
+        <!-- Publicidad izquierda -->
+        <div class="publicidad">
+            <img src="img/ad1.jpg" alt="ad" width="150">
+        </div>
 
-            <!-- Contenido central -->
-            <td width="70%">
+        <!-- Contenido central -->
+        <div class="contenido">
 
-                <!-- Banner -->
-                <img src="img/eambanner.png" width="100%" alt="Banner principal">
+            <!-- Banner -->
+            <img src="img/eambanner.png" class="banner" alt="Banner principal">
 
-                <!-- Menú -->
-                <h3>HISTORIA DE LA TECNOLOGIA</h3>
-                <a href="1957.html">Año 1957</a>
-                <a href="1962.html">Año 1962</a>
-                <a href="1972.html">Año 1972</a>
-                <a href="1981.html">Año 1981</a>
-                <a href="1985.html">Año 1985</a>
-                <a href="1986.html">Año 1986</a>
-                <a href="1991.html">Año 1991</a>
-                <a href="1993.html">Año 1993</a>
-                <a href="1997.html">Año 1997</a>
-                <a href="2005_2006.html">Año 2005/06</a>
-                <a href="2013.html">Año 2013/2026</a>
+            <!-- Menú -->
+            <h3>HISTORIA DE LA TECNOLOGIA</h3>
+            <a href="index.html">Inicio</a>
+            <a href="1957.html">Año 1957</a>
+            <a href="1962.html">Año 1962</a>
+            <a href="1972.html">Año 1972</a>
+            <a href="1981.html">Año 1981</a>
+            <a href="1985.html">Año 1985</a>
+            <a href="1986.html">Año 1986</a>
+            <a href="1991.html">Año 1991</a>
+            <a href="1993.html">Año 1993</a>
+            <a href="1997.html">Año 1997</a>
+            <a href="2005_2006.html">Año 2005/06</a>
+            <a href="2013.html">Año 2013/2026</a>
 
-                <br><br>
+            <br><br>
 
-                <!-- Contenido -->
-                <img src="img/tcno.jpg" width="300">
-                <p>
-                    Linea del tiempo y explicacion breve de la historia de la tecnologia
-                </p>
+            <!-- Contenido -->
+            <img src="img/tcno.jpg" width="300">
+            <p>
+                Linea del tiempo y explicacion breve de la historia de la tecnologia
+            </p>
 
-                <!-- Pie de página -->
-                <p>Roberto Carlos Medina Parra - Desarrollo web</p>
+            <!-- Pie de página -->
+            <div class="footer">
+                Roberto Carlos Medina Parra - Desarrollo web
+            </div>
 
-            </td>
+        </div>
 
-            <!-- Publicidad derecha -->
-            <td width="15%">
-                <img src="img/ad1.jpg" alt="ad" width="150">
-            </td>
+        <!-- Publicidad derecha -->
+        <div class="publicidad">
+            <img src="img/ad1.jpg" alt="ad" width="150">
+        </div>
 
-        </tr>
-    </table>
+    </div>
 
 </body>
 
